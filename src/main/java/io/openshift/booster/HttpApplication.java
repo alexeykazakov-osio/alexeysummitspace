@@ -11,7 +11,7 @@ import static io.vertx.core.http.HttpHeaders.CONTENT_TYPE;
 
 public class HttpApplication extends AbstractVerticle {
 
-  private static final String template = "Hello, %s from openshift.io!";
+  private static final String template = "Hello, %s from openshift.io!!!";
 
   @Override
   public void start(Future<Void> future) {
